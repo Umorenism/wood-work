@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { AuthProvider } from "../src/context/AuthProvider";
 import UserProfile from "./component/UserProfile.tsx";
 import WithdrawalPage from "./component/Withdrawalpage.tsx";
+import ExchangeTaskPage from "./component/Task.tsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/withdrawal",
         element: <WithdrawalPage />,
+      },
+      {
+        path: "/exchange",
+        element: <ExchangeTaskPage />,
       },
     ],
   },
