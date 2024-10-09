@@ -1,9 +1,5 @@
-import UserProfile from "./component/UserProfile";
+import { Outlet } from "react-router-dom";
 
 export const App = () => {
-  return (
-    <>
-      <UserProfile />
-    </>
-  );
+  return <Outlet />;
 };
