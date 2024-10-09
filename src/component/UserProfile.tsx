@@ -41,7 +41,7 @@ const UserProfile: React.FC = () => {
     <div className="min-h-screen bg-gray-950 flex items-center justify-center p-4">
       <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-6">
         <form onSubmit={handleSubmit}>
-          <h1>Edit</h1>
+          <h1 className="text-center py-4 text-2xl">Edit</h1>
 
           {/* Profile Image */}
           <div className="flex justify-center mb-4 relative">
